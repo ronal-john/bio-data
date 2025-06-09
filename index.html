@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ronal John Sajees | Biodata</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Background Gradient Animation */
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: linear-gradient(-45deg, #c9d6ff, #e2e2e2, #f2f2f2, #d4fc79);
+      background-size: 400% 400%;
+      animation: gradientMove 20s ease infinite;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .container {
+      background-color: #ffffffcc;
+      max-width: 1000px;
+      width: 95%;
+      margin: 50px auto;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(10px);
+      animation: fadeIn 1.5s ease;
+    }
+
+    /* Fade-in animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 3em;
+      color: #2c3e50;
+    }
+
+    .header h3 {
+      margin-top: 10px;
+      color: #555;
+      font-weight: normal;
+    }
+
+    .section {
+      margin-top: 40px;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .section:nth-of-type(2) { animation-delay: 0.3s; }
+    .section:nth-of-type(3) { animation-delay: 0.6s; }
+    .section:nth-of-type(4) { animation-delay: 0.9s; }
+    .section:nth-of-type(5) { animation-delay: 1.2s; }
+    .section:nth-of-type(6) { animation-delay: 1.5s; }
+    .section:nth-of-type(7) { animation-delay: 1.8s; }
+    .section:nth-of-type(8) { animation-delay: 2.1s; }
+
+    .section h2 {
+      color: #34495e;
+      border-bottom: 2px solid #bbb;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      transition: color 0.3s;
+    }
+
+    .section h2:hover {
+      color: #2c3e50;
+    }
+
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .info-table td {
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    .info-table td.label {
+      font-weight: 600;
+      color: #2c3e50;
+      width: 200px;
+    }
+
+    ul {
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      color: #7f8c8d;
+      border-top: 1px solid #ccc;
+      padding-top: 20px;
+      animation: fadeIn 1s ease 2.5s forwards;
+      opacity: 0;
+    }
+
+    a {
+      color: #2c3e50;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      color: #1abc9c;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+        margin: 20px;
+      }
+
+      .info-table td.label {
+        width: 120px;
+      }
+
+      .header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>Ronal John Sajees</h1>
+      <h3>Computer Science Student | Amal Jyothi College of Engineering</h3>
+    </div>
+
+    <div class="section">
+      <h2>Contact Information</h2>
+      <table class="info-table">
+        <tr><td class="label">Email:</td><td><a href="mailto:ronal@email.com">ronal@email.com</a></td></tr>
+        <tr><td class="label">Phone:</td><td>+91-9576543210</td></tr>
+        <tr><td class="label">Address:</td><td>Kottayam, Kerala, India</td></tr>
+        <tr><td class="label">LinkedIn:</td><td><a href="https://linkedin.com/in/ronal" target="_blank">linkedin.com/in/ronal</a></td></tr>
+        <tr><td class="label">GitHub:</td><td><a href="https://github.com/ronal" target="_blank">github.com/ronal</a></td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Personal Details</h2>
+      <table class="info-table">
+        <tr><td class="label">Date of Birth:</td><td>21 OCT 2006</td></tr>
+        <tr><td class="label">Gender:</td><td>Male</td></tr>
+        <tr><td class="label">Nationality:</td><td>Indian</td></tr>
+        <tr><td class="label">Languages:</td><td>English, Malayalam, Hindi</td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Tech in Computer Science</strong>, AJCE, Kerala (2024–2028)</li>
+        <li><strong>Higher Secondary</strong>, GSPS</li>
+        <li><strong>Boards</strong>, GSPS</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming: C, Python, JavaScript</li>
+        <li>Web: HTML, CSS, Node.js (basics)</li>
+        <li>Tools: Git, VS Code, Arduino IDE</li>
+        <li>Other: Cybersecurity, Linux basics</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Arduino Projects:</strong> Built automation systems & sensors</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Productivity App</strong> – Planner with Google Drive sync</li>
+        <li><strong>2D Post-Apocalyptic Game</strong> – Procedurally generated world using Godot</li>
+        <li><strong>Personal Portfolio</strong> – Built with HTML, CSS, and JS</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Hobbies & Interests</h2>
+      <ul>
+        <li>Game Development</li>
+        <li>Electronics & IoT</li>
+        <li>Cybersecurity</li>
+        <li>Blogging & Tech Content</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 Ronal John Sajees | All Rights Reserved
+    </div>
+
+  </div>
+
+</body>
+</html>
